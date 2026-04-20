@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb Sale</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        fieldset {
+            width: 300px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 10px;
+        }
+        
+        </style>
+</head>
+
+<body>
+    <form method="post" action="exersize1.php">
+        <fieldset>
+            <legend>Bulb Sales</legend>
+            <section>
+                <label for="username">Name</label>
+                <input type="text" name="username" id="namein">
+            </section>
+            <section>
+                <label for="btype">Bulb Type</label><br>
+                <input type="checkbox" name="btype" id="bulbboxes" value="4x100">Four 100-watt<br>
+                <input type="checkbox" name="btype" id="bulbboxes" value="8x100">Eight 100-watt<br>
+                <input type="checkbox" name="btype" id="bulbboxes" value="4x100+">Four 100-watt long-life<br>
+                <input type="checkbox" name="btype" id="bulbboxes" value="8x100+">Eight 100-watt long-life<br>
+            </section>
+            <section>
+                <label for="packamount">Battery Packs: </label>
+                <input type="number" name="packamount" id="amount">
+            </section>
+            <section>
+                <label for="usercard">Card Type:</label><br>
+                <input type="radio" name="cardType" id="usercard" value="1">Visa<br>
+                <input type="radio" name="cardType" id="usercard" value="2">Master Card<br>
+                <input type="radio" name="cardType" id="usercard" value="3">American Express <br>
+            </section>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>
