@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+</head>
+
+<body>
+    <form method="post" action="exersize2.php" id="registrationForm">
+        <h1>User Registration Form</h1>
+
+        <section>
+            <label for="Fname">First Name</label>
+            <input type="text" name="Fname" id="FnameIn" required>
+        </section>
+        <section>
+            <label for="Lname">Last Name</label>
+            <input type="text" name="Lname" id="LnameIn" required>
+        </section>
+        <section>
+            <label for="usermail">Email</label>
+            <input type="email" name="usermail" id="usermailIn" required>
+        </section>
+        <section>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="passwordIn">
+        </section>
+        <section>
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" name="confirm_password" id="confirm_passwordIn">
+        </section>
+        <input type="submit" value="Complete Registration">
+    </form>
+    <script src="js/exersize2.js"></script>
+
+</body>
+
+</html>
